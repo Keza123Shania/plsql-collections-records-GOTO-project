@@ -3,8 +3,13 @@
 This project demonstrates the use of PL/SQL **Collections**, **Records**, and **GOTO** statements to solve a corporate finance problem.
 
 **Author:** Keza Shania
+
+**Student ID:** 25793
+
 **Course:** INSY 8311
-**Group:** C
+
+**Group:**  C
+
 ---
 
 ## 1. Problem Statement
