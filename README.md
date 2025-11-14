@@ -48,7 +48,24 @@ The solution is a PL/SQL block that simulates a "Budget Safety Check."
 
 ---
 
-## 4. How to Run
+## 4. Screenshots of output
+
+### Employee Table Creation
+![This image shows the initial setup case](initial.png)
+
+### Success Output
+![This image shows the success case](success.png)
+
+### Failure (GOTO) Output
+![This image shows the GOTO failure](failure.png)
+
+---
+
+## 5. How to Run
 
 1.  Run `setup.sql` to create the sample `employees` table.
 2.  Run `solution.sql` with `SERVEROUTPUT ON`.
+
+## 6. Conclusion
+
+This project successfully used PL/SQL **Collections**, **Records**, and **GOTO** statements. A `VARRAY` (Collection) stored an employee list, a `%ROWTYPE` (Record) fetched employee data, and `GOTO` enforced a hard budget limit, demonstrating how to handle strict business rules in PL/SQL.
